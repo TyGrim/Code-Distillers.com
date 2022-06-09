@@ -1,7 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
 import './main.sidebar.scss'
-import LogoCD from '../../assets/Logo-Code-Distillers/Logo-Stacked.png'
-import LogoSubtitle from '../../assets/Logo-Code-Distillers/CodeDistillersLogo-sub.png'
+import LogoCD from '../../assets/Logo-Code-Distillers/LogoOnly.png'
+import LogoSubtitle from '../../assets/Logo-Code-Distillers/sub-Logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 
@@ -13,7 +13,7 @@ const Sidebar = () => (
     </Link>
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
-        <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faHome} color="#76a0b8" />
       </NavLink>
       <NavLink
         exact="true"
@@ -21,7 +21,7 @@ const Sidebar = () => (
         className="about-link"
         to="/about"
       >
-        <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faUser} color="#76a0b8" />
       </NavLink>
       <NavLink
         exact="true"
@@ -29,7 +29,7 @@ const Sidebar = () => (
         className="contact-link"
         to="/contact"
       >
-        <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+        <FontAwesomeIcon icon={faEnvelope} color="#76a0b8" />
       </NavLink>
     </nav>
   </div>
