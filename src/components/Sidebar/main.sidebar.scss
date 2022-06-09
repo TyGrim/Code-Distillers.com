@@ -29,7 +29,7 @@
     position: absolute;
     height: 210px;
     top: 50%;
-    margin: -120px;
+    margin-top: -120px;
     width: 100%;
 
     a {
@@ -42,7 +42,7 @@
       text-decoration: none;
 
       i {
-        transition: all 0.3 ease-out;
+        transition: all 0.3s ease-out;
       }
 
       &:hover {
@@ -58,7 +58,7 @@
       }
 
       &:after {
-        content: ' ';
+        content: '';
         font-size: 9px;
         letter-spacing: 2px;
         position: absolute;
@@ -67,7 +67,63 @@
         width: 100%;
         text-align: center;
         opacity: 0;
-        transition: all 0.3 ease-out;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      &:first-child {
+        &:after {
+          content: 'HOME';
+        }
+      }
+    }
+
+    a.about-link {
+      &:after {
+        content: 'ABOUT';
+      }
+    }
+
+    a.contact-link {
+      &:after {
+        content: 'CONTACT';
+      }
+    }
+
+    a.portfolio-link {
+      &:after {
+        content: 'PORTFOLIO';
+      }
+    }
+
+    a.active {
+      svg {
+        color: #ffd700;
+      }
+    }
+  }
+
+  ul {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+    li {
+      a {
+        padding: 7px 0;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+        color: #4d4d4e;
+
+        &:hover {
+          color: #ffd700;
+        }
       }
     }
   }
