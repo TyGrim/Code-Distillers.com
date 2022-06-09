@@ -42,7 +42,7 @@ const Logo = () => {
         className="solid-logo"
         ref={solidLogoRef}
         src={LogoCD}
-        alt="AV Automation"
+        alt="Code-Distllers Logo"
       />
 
       <svg

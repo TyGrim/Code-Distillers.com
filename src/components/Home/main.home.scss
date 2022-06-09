@@ -30,7 +30,7 @@
     &:before {
       content: '<h1>';
       font-family: 'La Belle Aurore', cursive;
-      color: #f26821;
+      color: #333;
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
@@ -39,10 +39,10 @@
     }
 
     &:after {
-      content: '<h1/>';
+      content: '</h1>';
       font-family: 'La Belle Aurore', cursive;
       opacity: 0.6;
-      color: #f26821;
+      color: #333;
       font-size: 18px;
       position: absolute;
       margin-top: 15px;

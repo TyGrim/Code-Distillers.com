@@ -13,8 +13,7 @@
   svg {
     width: 100%;
     height: 100%;
-    bottom: 0;
-    // transform: rotateZ(30deg) !important;
+    bottom: 10;
   }
 
   .solid-logo {
@@ -24,14 +23,14 @@
     bottom: auto;
     left: 0;
     margin: auto;
-    width: 100%;
+    height: 101%;
+    width: 101%;
     opacity: 0;
-    // transform: rotateZ(30deg) !important;
     z-index: 1;
   }
 }
 
 .svg-container {
-  stroke: #f26821;
-  stroke-width: 10;
+  stroke: #333;
+  stroke-width: 6;
 }
