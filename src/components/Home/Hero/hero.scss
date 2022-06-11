@@ -1,0 +1,13 @@
+.hero-banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px black;
+  h1 {
+    display: flex;
+    padding: 50px;
+    text-align: center;
+    color: red;
+  }
+}
