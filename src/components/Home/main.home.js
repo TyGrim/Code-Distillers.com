@@ -85,7 +85,7 @@ const Home = () => {
           </div>
           <h2>AV / Crestron / Automation / Programming</h2>
           <Link to="/contact" className="flat-button">
-            CONTACT ME
+            CONTACT US
           </Link>
         </div>
         <Logo />
