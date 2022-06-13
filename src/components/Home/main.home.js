@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo/main.logo'
-import Hero from './Hero/hero'
 import './main.home.scss'
 
 const Home = () => {
@@ -90,9 +89,6 @@ const Home = () => {
           </Link>
         </div>
         <Logo />
-      </div>
-      <div className="Hero Banner">
-        <Hero />
       </div>
       <Loader type="pacman" />
     </>
