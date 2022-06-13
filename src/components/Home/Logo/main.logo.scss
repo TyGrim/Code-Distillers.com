@@ -1,20 +1,19 @@
 .logo-container {
-  z-index: 0;
+  z-index: -1;
   width: 50%;
   opacity: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 
   svg {
-    position: relative;
-    width: 405px;
+    position: absolute;
+    width: 410px;
     height: 378px;
   }
 
   .solid-logo {
     position: absolute;
-
     width: 410px;
     height: 380px;
     opacity: 0;

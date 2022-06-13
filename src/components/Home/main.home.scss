@@ -1,13 +1,15 @@
 .home-page {
   display: flex;
-  height: 80%;
+  height: 70vh;
+  width: 100vw;
+  min-height: 500px;
   justify-content: center;
   align-items: center;
 
   .text-zone {
     display: flex;
     flex-direction: column;
-    margin-left: 160px;
+    margin-left: 180px;
     width: 50%;
     text-overflow: hidden;
     text-overflow: clip;
