@@ -90,3 +90,72 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .home-page {
+    min-height: 0px;
+
+    .text-zone {
+      position: absolute;
+      margin-left: 25px;
+      width: 100%;
+      background-color: linear-gradient(to right, #f1b1b1, #82e6e8);
+      backdrop-filter: blur(4px);
+    }
+
+    .job {
+      color: #fafafa;
+      text-shadow: 1px 1px #333;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 30px;
+
+      &:hover {
+        color: #000000;
+      }
+    }
+
+    h1 {
+      color: rgb(250, 250, 250);
+      text-shadow: 1px 1px rgb(0, 0, 0);
+      font-size: 52px;
+      line-height: 50px;
+      margin: 0;
+      font-family: 'Coolvetica';
+
+      &:before {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+
+        left: -5px;
+      }
+
+      &:after {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+
+        margin-top: 15px;
+        margin-left: 5px;
+      }
+    }
+
+    h2 {
+      font-size: 14px;
+    }
+
+    .flat-button {
+      color: #000000;
+      background: #f26821;
+      font-size: 13px;
+      letter-spacing: 2px;
+      padding: 10px;
+      border: 2px solid #333;
+      border-radius: 15px;
+      margin-top: 25px;
+
+      &:hover {
+        background: #76a0b895;
+      }
+    }
+  }
+}
