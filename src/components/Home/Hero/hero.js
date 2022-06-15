@@ -19,7 +19,7 @@ const Hero = () => {
         <img src={Station} alt="MGM Resorts" />
         <img src={Venitian} alt="MGM Resorts" />
       </Marquee>
-      <Marquee speed={60} direction="right">
+      <Marquee play speed={60} pauseOnHover={true} direction="right">
         <img src={RedRock} alt="MGM Resorts" />
         <img src={Station} alt="MGM Resorts" />
         <img src={Venitian} alt="MGM Resorts" />

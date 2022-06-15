@@ -101,3 +101,48 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .nav-bar {
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    min-height: 80px;
+    .logo {
+      img {
+        margin-left: 5px;
+        &.sub-logo {
+          display: none;
+        }
+      }
+    }
+    nav {
+      display: flex;
+      position: relative;
+      justify-content: flex-end;
+      align-items: center;
+
+      a {
+        line-height: 0;
+        height: 0;
+        position: relative;
+        font-size: 35px;
+        margin-right: 25px;
+
+        &:hover {
+          svg {
+            opacity: 1;
+          }
+
+          &:after {
+          }
+        }
+
+        &:after {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+}
