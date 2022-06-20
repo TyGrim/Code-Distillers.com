@@ -12,14 +12,20 @@ const Hero = () => {
       <div className="hero-title">
         <h1>Chosen by industry leaders like...</h1>
       </div>
-      <Marquee speed={60} play pauseOnHover={true}>
+      <Marquee gradient={false} speed={60} play pauseOnHover={true}>
         <img src={MGM} alt="MGM Resorts" />
         <img src={Cosmo} alt="MGM Resorts" />
         <img src={RedRock} alt="MGM Resorts" />
         <img src={Station} alt="MGM Resorts" />
         <img src={Venitian} alt="MGM Resorts" />
       </Marquee>
-      <Marquee play speed={60} pauseOnHover={true} direction="right">
+      <Marquee
+        gradient={false}
+        play
+        speed={60}
+        pauseOnHover={true}
+        direction="right"
+      >
         <img src={RedRock} alt="MGM Resorts" />
         <img src={Station} alt="MGM Resorts" />
         <img src={Venitian} alt="MGM Resorts" />

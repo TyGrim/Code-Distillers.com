@@ -65,7 +65,7 @@ const Home = () => {
             <span className={letterClass}>W</span>
             <span className={`${letterClass} _12`}>e </span>
             <span> </span>
-            <span className={`${letterClass} _13`}>A</span>
+            <span className={`${letterClass} _13`}>a</span>
             <span className={`${letterClass} _14`}>r</span>
             <span className={`${letterClass} _15`}>e </span>
             <br />
