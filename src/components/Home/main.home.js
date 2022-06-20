@@ -92,11 +92,6 @@ const Home = () => {
         <Logo />
       </div>
       <Hero />
-      <Hero />
-      <Hero />
-      <Hero />
-      <Hero />
-      <Hero />
 
       <Loader type="pacman" />
     </>

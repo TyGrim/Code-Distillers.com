@@ -30,8 +30,8 @@
 
   h1 {
     color: #76a0b8;
-    font-size: 6.5vh;
-    line-height: 60px;
+    font-size: 7.5vh;
+    line-height: 63px;
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
@@ -54,7 +54,7 @@
       font-size: 18px;
       position: absolute;
       margin-top: 10px;
-      margin-left: 15px;
+      margin-left: 10px;
       animation: fadeIn 1s 1.7s backwards;
     }
   }
@@ -63,9 +63,9 @@
     color: #333;
     margin-top: 20px;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 14px;
     font-family: sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
   }
 
@@ -91,15 +91,24 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .home-page {
-    min-height: 0px;
+  .container.home-page {
+    min-height: auto;
 
     .text-zone {
-      position: absolute;
-      margin-left: 25px;
-      width: 100%;
       background-color: linear-gradient(to right, #f1b1b1, #82e6e8);
-      backdrop-filter: blur(4px);
+      backdrop-filter: blur(6px);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      padding-left: 15px;
+      margin-left: 0px;
+      justify-content: center;
+      h2 {
+        color: rgb(255, 255, 255);
+        letter-spacing: 2.1px;
+        text-shadow: 0.5px 0.5px #333;
+        font-weight: 600;
+      }
     }
 
     .job {
@@ -115,8 +124,9 @@
     }
 
     h1 {
-      color: rgb(250, 250, 250);
-      text-shadow: 1px 1px rgb(0, 0, 0);
+      color: rgb(241, 241, 241);
+      letter-spacing: 1.2px;
+      text-shadow: 0.5px 0.5px #333;
       margin: 0;
       font-family: 'Coolvetica';
 
@@ -134,12 +144,12 @@
     }
 
     .flat-button {
-      color: #000000;
-      background: #f26821;
-      font-size: 13px;
+      color: #f9f9f9;
+      background: #f26721e8;
+      font-size: 16px;
       letter-spacing: 2px;
       padding: 10px;
-      border: 2px solid #333;
+      border: 1px solid #ffffff;
       border-radius: 15px;
       margin-top: 25px;
 
