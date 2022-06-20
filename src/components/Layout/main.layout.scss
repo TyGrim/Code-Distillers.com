@@ -3,31 +3,10 @@
   height: 100vh;
 }
 
-.top-tags {
-  bottom: auto;
-  top: 35px;
-}
-
-.tags {
-  color: #f26821;
-  opacity: 0.6;
-  position: absolute;
-  bottom: 0;
-  left: 120px;
-  font-size: 18px;
-  font-family: 'La Belle Aurore', cursive;
-}
-
-.bottom-tag-html {
-  font-size: 300px;
-
-  margin-left: -20px;
-}
-
 .container {
   width: 100%;
   will-change: contents;
-  height: 90%;
+  height: 100%;
   min-height: 566px;
   opacity: 0;
   top: 5%;
@@ -40,7 +19,7 @@
 
 .container.contact-page,
 .container.about-page,
-.container.portfolio-page {
+.container.service-page {
   h1 {
     font-size: 53px;
     font-family: 'Coolvetica';
@@ -50,31 +29,6 @@
     position: relative;
     margin-bottom: 40px;
     left: -10px;
-
-    &:before {
-      content: '<h1>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #f26821;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -10px;
-      left: -10px;
-      opacity: 0.6;
-      line-height: 18px;
-    }
-
-    &:after {
-      content: '<h1/>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #f26821;
-      font-size: 18px;
-      line-height: 18px;
-      position: absolute;
-      left: -30px;
-      bottom: -20px;
-      margin-left: 20px;
-      opacity: 0.6;
-    }
   }
 
   p {

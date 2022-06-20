@@ -30,8 +30,8 @@
 
   h1 {
     color: #76a0b8;
-    font-size: 56px;
-    line-height: 53px;
+    font-size: 6.5vh;
+    line-height: 60px;
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
@@ -42,8 +42,7 @@
       color: #333;
       font-size: 18px;
       position: absolute;
-      margin-top: -40px;
-      left: -15px;
+      left: 140px;
       opacity: 0.6;
     }
 
@@ -54,7 +53,7 @@
       color: #333;
       font-size: 18px;
       position: absolute;
-      margin-top: 15px;
+      margin-top: 10px;
       margin-left: 15px;
       animation: fadeIn 1s 1.7s backwards;
     }
@@ -118,24 +117,15 @@
     h1 {
       color: rgb(250, 250, 250);
       text-shadow: 1px 1px rgb(0, 0, 0);
-      font-size: 52px;
-      line-height: 50px;
       margin: 0;
       font-family: 'Coolvetica';
 
       &:before {
-        color: rgb(0, 0, 0);
-        font-size: 16px;
-
-        left: -5px;
+        display: none;
       }
 
       &:after {
-        color: rgb(0, 0, 0);
-        font-size: 16px;
-
-        margin-top: 15px;
-        margin-left: 5px;
+        display: none;
       }
     }
 
