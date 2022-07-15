@@ -5,6 +5,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo/main.logo'
 import './main.home.scss'
 import Hero from './Hero/hero'
+import Services from './Services/services'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -91,7 +92,9 @@ const Home = () => {
         </div>
         <Logo />
       </div>
+
       <Hero />
+      <Services />
 
       <Loader type="pacman" />
     </>
