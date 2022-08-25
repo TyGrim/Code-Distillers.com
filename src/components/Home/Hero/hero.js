@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className="hero-banner">
       <div className="hero-title">
-        <h1>Chosen by industry leaders like...</h1>
+        <h1>Trusted by Industry Leaders</h1>
       </div>
       <Marquee gradient={false} speed={60} play pauseOnHover={true}>
         <img src={MGM} alt="MGM Resorts" />
