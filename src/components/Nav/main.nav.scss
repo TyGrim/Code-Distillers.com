@@ -1,8 +1,6 @@
 .nav-bar {
   display: flex;
-  /* From https://css.glass */
   background: rgba(180, 235, 234, 0.31);
-  border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);  
   backdrop-filter: blur(6.9px);
   -webkit-backdrop-filter: blur(6.9px);
@@ -12,6 +10,7 @@
   position: absolute;
   z-index: 3;
   min-height: 80px;
+  
 
   .logo-nav {
     display: flex;
@@ -77,9 +76,7 @@
 
       &:first-child {
         &:after {
-         
           content: 'HOME';
-          
         }
       }
     }
@@ -111,32 +108,27 @@
 }
 
 @media only screen and (max-width: 600px) {
+
   .nav-bar {
-    height: 80px;
-    width: 100%;
-    display: flex;
-    position: relative;
-    min-height: 80px;
-    .logo {
-      img {
-        margin-left: 5px;
-        &.sub-logo {
-          display: none;
+    position: fixed;
+    bottom: 0;
+
+    .logo-nav {
+        display: none;
+         
         }
-      }
-    }
+  }
+
     nav {
-      display: flex;
-      position: relative;
-      justify-content: flex-end;
-      align-items: center;
+      flex-grow: 1;
+      margin-left: 77px;
+    
 
       a {
-        line-height: 0;
-        height: 0;
-        position: relative;
+        position: absolute;
         font-size: 35px;
-        margin-right: 25px;
+        
+        
 
         &:hover {
           svg {
@@ -144,10 +136,8 @@
           }
         }
 
-        &:after {
-          visibility: hidden;
-        }
+        
       }
     }
   }
-}
+
