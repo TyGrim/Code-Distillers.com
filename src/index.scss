@@ -1,15 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 62.5%;
+  // overflow: hidden;
 }
 
 body {
-  box-sizing: border-box;
-  margin: 0;
-  font: 400 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: #444;
-  background: #eedcf7;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  display: block;
+  
+  width: 100%;
 }

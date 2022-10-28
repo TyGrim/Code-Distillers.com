@@ -1,8 +1,11 @@
 .hero-banner {
+  display: flex;
   background: #ffffff;
   position: relative;
   z-index: 1;
   animation: fadeIn 3.8s 3.8s backwards;
+  margin: 0;
+  padding: 0;
 
   &:before,
   &:after {
@@ -15,19 +18,20 @@
     right: 0;
     z-index: -1;
     -webkit-backface-visibility: hidden; // for Chrome Windows
+    backface-visibility: hidden;
   }
+//adds a tapered look to marquee container
+  // &:before {
+  //   top: 0;
+  //   transform: skewY(1.5deg);
+  //   transform-origin: 100% 0;
+  // }
 
-  &:before {
-    top: 0;
-    transform: skewY(1.5deg);
-    transform-origin: 100% 0;
-  }
-
-  &:after {
-    bottom: 0;
-    transform: skewY(-1.5deg);
-    transform-origin: 100%;
-  }
+  // &:after {
+  //   bottom: 0;
+  //   transform: skewY(-1.5deg);
+  //   transform-origin: 100% ;
+  // }
 }
 
 .hero-banner {
